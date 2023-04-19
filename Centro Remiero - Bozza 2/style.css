@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+/*font-family: 'Quicksand', sans-serif;
+font-family: 'Hind', sans-serif;
+*/
+#titolo p {
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    text-align: center;
+}
+#titolo {
+    font-size: 45px;
+    color: #0a3b72;
+    font-weight: bold;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#motto {
+    font-size: 27px;
+    font-style: italic;
+    font-weight: normal;
+}
+@media screen and (max-width: 705px) {
+    #titolo {
+        font-size: 25px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    #motto {
+        font-size: 17px;
+        font-style: italic;
+        font-weight: normal;
+    }
+}
+#loader {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    transition: opacity 0.5s;
+  }
+  
+  #loader img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: opacity 0.5s;
+    transform: translate(-50%, -50%);
+  }
+img {
+    user-select: none;
+}
+a {
+    text-decoration: none;
+}
+#logocrlp {
+    height: 28px;
+    width: auto;
+    margin: 11px 0px 11px 0px;
+}
+#navmenuest {
+    background-color: #414444;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+div#menuest {
+    list-style-type: none;
+    position: fixed;
+    background-color: #414444;
+    line-height: 50px;
+    font-family: 'Quicksand', sans-serif;;
+    font-size: 13px;
+    width: 100%;
+    justify-content: center;
+    user-select: none;
+    display: flex;
+    transition: opacity 0.3s;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+div#navmenuest ul {
+    font-family: 'Quicksand', sans-serif;
+    
+    z-index: 9997;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+div#menuest ul {
+    justify-content: center;
+    align-items: center;
+}
+.titolimenu {
+    float: left;
+    color: white;
+    border: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style-type: none;
+    top: 0;
+    left: 0;
+    z-index: 9997;
+}
+.titolimenu ul {
+    list-style-type: none;
+}
+div#menuest li {
+    list-style-type: none;
+    float: left;
+}
+#ul-chi-siamo, #ul-club-house, ul#ul-foresteria,  ul#ul-boathouse, ul#ul-centro-estivo, ul#ul-canottaggio, 
+ul#ul-regate, ul#ul-rwc{
+    transition: height 0.5s;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    background-color: #414444;
+}
+div#navmenuest ul#ul-chi-siamo li, div#navmenuest ul#ul-club-house li, div#navmenuest ul#ul-foresteria li, 
+div#navmenuest ul#ul-boathouse li, div#navmenuest ul#ul-centro-estivo li, div#navmenuest ul#ul-canottaggio li, 
+div#navmenuest ul#ul-regate li, div#navmenuest ul#ul-rwc li {
+    margin-left: 30%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    user-select: none;
+    text-align: left;
+    color: white;
+    font-size: 22px;
+    list-style-type: none;
+}
+div#navmenuest ul li a {
+    text-decoration: none;
+    color: white;
+}
+div#navmenuest ul#ul-chi-siamo, div#navmenuest ul#ul-club-house, div#navmenuest ul#ul-foresteria, div#navmenuest ul#ul-boathouse,
+div#navmenuest ul#ul-centro-estivo, div#navmenuest ul#ul-canottaggio, div#navmenuest ul#ul-regate, div#navmenuest ul#ul-rwc {
+    max-height: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#divinfo {
+    width: 100%;
+    background-color: #0a3b72;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.imgpartner {
+    transition: height 0.5s;
+}
+div#partner div a {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+br {
+    user-select: none;
+}
+::selection {
+    background-color: #bfbfbf7f;
+  }
+div#divinfo p {
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+div#copyright div{
+    height: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#copyright a {
+    width: auto;
+    margin: 0% 0.5% 0% 0.5%;
+}
+div#copyright a img {
+    height: 20px;
+    width: auto;
+}
+div#copyright {
+    font-size: 10px;
+    width: 100%;
+    color: white;
+    background-color: #0a3b72;
+    text-align: center;
+    user-select: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#instagram, #facebook {
+    height: 25px;
+    width: 25px;
+}
+#divsocial {
+    background-color: #0a3b72;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+}
+#divsocial a {
+    margin: 2% 1% 2% 1%;
+}
+#menurid {
+    font-family: 'Quicksand', sans-serif;
+    position: fixed;
+    color:white;
+    background-color: #414444;
+    font-size: 23px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    user-select: none;
+    width: 100%;
+    transition: height 0.5s;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+}
+#menuicon {
+    margin: 15px 10px 15px 10px;
+    float: left;
+    height: 30px;
+    width: auto;
+}
+#hamburgericon {
+    margin: 15px 10px 15px 10px;
+    height: 30px;
+    width: auto;
+    float: right;
+}
+#navmenurid {
+    background-color: #414444;
+    min-height: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+ul#voci {
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+}
+div#menurid img {
+    margin-bottom: 1%;
+}
+div#menurid ul, div#menurid ul li ul {
+    list-style-type: none;
+    font-family: 'Quicksand', sans-serif;
+}
+.titolimenurid {
+    color: white;
+    margin: 2% 0% 2% 0%;
+}
+div#menurid ul li {
+    width: 100%;
+    text-align: center;
+}
+div#menurid ul li a p {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+div#menurid ul li a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+div#menurid ul li ul li a {
+    font-size: 15px;
+}
+ul#ul-chi-siamorid, ul#ul-club-houserid, ul#ul-foresteriarid, ul#ul-boathouserid, ul#ul-centro-estivorid, ul#ul-canottaggiorid,
+ul#ul-regaterid, ul#ul-rwcrid  {
+    transition: height 0.5s;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+@media screen and (max-width: 1210px) {
+    
+   div#partner div {
+        background-color: white;
+        width: 100%;
+        display: block;
+    }
+    div#partner div a {
+        margin-right: 35%;
+        margin-bottom: 10%;
+        padding: 5%;
+    }
+    div#partner div img {
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+}
+
+@media screen and (min-width: 1210px) {
+    
+    div#partner div {
+        background-color: white;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10%;
+        max-height: 10%;
+        overflow: hidden;
+        max-width: 100%;
+    }
+}
+@media screen and (min-height: 650px) {
+@media screen and (min-width: 1010px) {
+    #navmenurid {
+        display: none;
+    }
+    #navmenuest {
+        display: block
+    }
+}
+@media screen and (max-width: 1009px) {
+    #navmenuest {
+        display: none;
+    }
+    #navmenurid {
+        display: block;
+    }
+}
+}
+@media screen and (max-height: 650px) { 
+    #navmenuest {
+        display: none;
+    }
+    #navmenurid {
+        display: block;
+    }
+}
+@media screen and (max-width: 1284px) {
+   #menufinepagext {
+    display: none;
+   } 
+}
+@media screen and (min-width: 1285px) {
+    #menufinepagext {
+     display: block;
+    } 
+ }
+@media screen and (max-width: 610px) {
+    div#divinfo {
+        display: block;
+        text-align: center;
+        padding-top: 4%;
+        font-size: 10px;
+    }
+    div#divinfo p {
+        margin: 0%;
+        padding: 3%;
+    }
+}
+@media screen and (min-width: 610px) {
+    div#divinfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        font-size: 13px;
+    }
+    div#divinfo p {
+        margin: 3% 3% 3% 3%;
+    }
+}
+
+#logofinepag {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    height: 30px;
+    width: auto;
+}
+
+
+
+
+
+
+
+.sottolineato {
+    position: relative;
+    text-decoration: none;
+    }
+.sottolineato::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+    width: 0;
+    height: 0.5px;
+    background-color: white;
+    transition: width 0.2s ease-out;
+}
+.sottolineato:hover::before {
+    width: 100%;
+    left: 0;
+    transition: width 0.2s ease-out;
+}
+.active::before {
+    width: 100%;
+    left: 0;
+    transition: width 0.2s ease-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+    .pmenuridfinepag {
+        font-family: 'Quicksand', sans-serif;
+        color:white;
+        background-color: #0a3b72;
+        font-size: 17px;
+        text-align: left;
+        align-items: center;
+        list-style-type: none;
+        overflow-x: hidden;
+        overflow-y: auto;
+        user-select: none;
+        transition: height 0.5s;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 25px;
+        margin-bottom: 12px;
+        line-height: 20px;
+        overflow: hidden;
+    }
+    #menuridfinepag {
+        width: 100%;
+        font-family: 'Quicksand', sans-serif;
+        background-color: #0a3b72;
+        user-select: none;
+    }
+    #menuridfinepag ul {
+        list-style-type: none;
+        margin-left: 21%;
+        margin-right: 20%;
+        margin-bottom: 12px;
+        overflow: hidden;
+    }
+    #menuridfinepag ul li {
+        list-style-type: none;
+    }
+    #menuridfinepag div img {
+        height: 20px;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+        float: right;
+    }
+    .limenuridfinepag a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        line-height: 30px;
+    }
+@media screen and (max-width: 365px) {
+    #menuridfinepag {
+        display: none;
+    }
+}

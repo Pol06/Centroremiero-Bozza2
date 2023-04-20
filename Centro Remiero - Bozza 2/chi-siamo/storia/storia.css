@@ -1,0 +1,10 @@
+#titolo p {
+    display: block;
+    text-align: center;
+}
+div#paragrafo {
+    color: #0a3b72;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    margin: 0% 15% 0% 15%;
+}
